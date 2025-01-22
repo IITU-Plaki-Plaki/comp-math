@@ -7,7 +7,6 @@ public class Main {
 }
 
 class HornerPolynomial {
-    // Метод Горнера для работы с double
     static double horner(double[] poly, int n, double x) {
         double result = poly[0];
 
